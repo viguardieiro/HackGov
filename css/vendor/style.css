@@ -1,0 +1,115 @@
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+.hero{
+    background-image: url(img/Capa.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    padding: auto;
+    text-align: center;
+}
+
+.hero button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 0px;
+    margin-top: 87vh;
+    display: none;
+}
+
+.apresentacao{
+    background-color: black;
+}
+
+.apresetacao .texto{
+    background-color: black;
+}
+
+.frases{
+    height: 65vh;
+    background-image: url(img/Incentivo.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.frase{
+    text-align: center;
+    margin-top: 90px;
+    color: black;
+    font-size: 40pt;
+}
+
+.rodape{
+    font-size: 16px;
+}
+
+#areaFormulario{
+    background-color: black;
+    height: 35vh;
+    padding: 30px 0px;
+    color: grey;
+    font-size: 16px;
+}
+
+#areaFormulario input{
+    background-color: black;
+    border: 0px;
+    border-bottom: 1px solid grey;
+    color: grey;
+    margin: 0px 0;
+    padding: 0;
+}
+
+#areaFormulario input:focus{
+    background-color: black;
+    outline: none !important;
+    box-shadow:none;
+    border: 0px;
+    border-bottom: 1px solid grey;
+    color: grey;
+}
+
+#areaFormulario img{
+    height: 50px;
+    width: auto;
+    margin-top: -10px;
+}
+
+#areaFormulario .enviar{
+    background-image: url(img/Vector%20Smart%20Object%20copy%2021.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: auto;
+    text-align: center;
+    transform: translateY(-180%) translateX(850%);
+    border-bottom: 0px;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

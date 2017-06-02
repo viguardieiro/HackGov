@@ -1,0 +1,430 @@
+@font-face {
+    font-family: SupplyMono;
+    font-weight: normal;
+    src: url('font/Supply-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: SupplyMono;
+    font-weight: 100;
+    src: url('font/Supply-Light.otf') format("opentype");
+}
+
+@font-face {
+    font-family: Mono;
+    font-weight: normal;
+    src: url('font/monoregular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: Mono;
+    font-weight: bold;
+    src: url('font/monobold.otf') format("opentype");
+}
+.logo{
+    /*background-image: url(img/hack.png);*/
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+}
+
+.hero{
+    background-image: url(img/Capa.png);
+    height: 110vh;
+    background-size:cover;
+    background-position: bottom;
+    padding: auto;
+    text-align: center;
+}
+
+.hero .titulo{
+   padding-top: 40vh;
+   text-transform: uppercase;
+}
+
+.hero h1,.hero h2, .hero h3{
+    text-align: left;
+    font-family: "SupplyMono";
+    margin: auto;
+    font-weight: 100;
+}
+
+.hero h1{
+    position: relative;
+    margin: auto;
+    color: white;
+    width: 45%;
+    letter-spacing: 3px;
+    font-size:calc(100px + 1vw);
+    border: 0px;
+    text-shadow: 0px -5px 15px rgba(0, 0, 0, 0.70);
+}
+
+
+.hero h2{
+    color: #FC9CA8;
+    opacity: 0.9;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.70);
+    animation-delay: 1s;
+}
+
+.hero h3{
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.70);
+    animation-delay: 2s;
+}
+
+.hero button{
+    padding: 20px 0;
+    background-color: white;
+    border: 1px solid transparent ;
+    border-radius: 5px;
+    font-size:18px;
+    font-family: "SupplyMono";
+    font-weight: lighter;
+    color: #a98e7e;
+    margin-top: 70px;
+    position: relative;
+    z-index: 100;
+}
+.fb{
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+
+.fundoAmarelo{
+    background-image: url(img/Incentivo.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.apresentacao{
+    background-color: #181818;
+    font-family: "SupplyMono";
+    font-weight: lighter;
+    font-size: 18pt;
+	margin-top:-1px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+	position: relative;
+	z-index: 10;
+}
+
+.apresentacao .decal{
+	position: absolute;
+}
+
+.apresentacao #decal1{
+	transform:translateX(-50%) translateY(-50%);
+	width:200px;
+	z-index: 30;
+}
+
+.apresentacao #decal2{
+	margin-left:65%;
+	transform:translateY(100%);
+
+}
+
+.apresentacao #decal3{
+	transform:translateX(-50%) translateY(100%);
+	width:300px;
+}
+
+.apresentacao p{
+    padding: 30px;
+}
+
+.apresentacao .big{
+    font-size: 40pt;
+    margin-right: 30px;
+}
+
+.apresentacao .small{
+    font-size: 10pt;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-right: 30px;
+}
+
+.apresentacao .right{
+    text-align: right;
+    font-style: italic;
+    letter-spacing: 1px;
+
+	
+}
+
+.apresentacao .texto{
+    background-color: white;
+}
+
+.classe{
+    color: #FC9CA8;
+    display: inline;
+}
+
+.classe p{
+    font-size: 150%;
+}
+
+.nome{
+    display: inline;
+    color: aqua;
+}
+
+.chave{
+    display: inline;
+    color: white;
+    padding: 0;
+}
+
+.identa1{
+    font-size:85%;
+    margin-left: 10%;
+}
+
+.identa2{
+    font-size:85%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.identa3{
+    font-size:85%;
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+.identa4{
+    font-size:85%;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+
+.string{
+    color: white;
+}
+
+
+#areaFormulario{
+    background-color: #181818;
+    height: auto;
+    font-family: "SupplyMono";
+}
+
+.formulario{
+    padding-top: 30px;
+	text-align:center;
+}
+
+#email{
+	width: 54%;
+	margin-bottom: 40px;
+}
+
+#areaFormulario p{
+    margin-bottom: 10px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: darkgrey;
+	white-space: nowrap;
+}
+
+#areaFormulario input{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    font-weight: 100;
+    border: 0px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid grey;
+    color: #414141;
+}
+
+#areaFormulario input:focus{
+    background-color:transparent;
+    outline: none !important;
+    box-shadow:none;
+    border: 0px;
+    border-bottom: 1px solid grey;
+    color: grey;
+}
+
+
+#areaFormulario .enviar{
+    background-image: url(img/npronto.png);
+    background-color: transparent;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: auto;
+    text-align: center;
+    transform: translateY(-400%);
+    border:0;
+    font-size: 15px;
+	margin-left: 50%;
+}
+
+#areaFormulario .enviar:active{
+    border:0;
+}
+
+#areaFormulario .pronto{
+    background-image: url(img/pronto.png);
+}
+
+#areaFormulario .npronto{
+    background-image: url(img/npronto.png);
+}
+
+.bottomLogo{
+    background-image: url(img/labfgv.png);
+    background-color: transparent;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+	margin-left: -38px;
+	margin-top: -26px;
+    width: 200px;
+    height: 100px;
+}
+
+.footer{
+    text-align: left;
+	transform: translateX(-17px);
+}
+
+.center{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-device-width: 500px) {
+	
+	.hero h1{
+		font-size: 200%;
+        margin-bottom: 5px;
+	}
+	.hero h2{
+		font-size: 150%;
+	}
+	.hero h3{
+		font-size: 150%;
+	}
+	
+    .hero button{
+        padding: 10% 0;
+        background-color: white;
+        border: 1px solid transparent ;
+        border-radius: 5px;
+        font-size:calc(10px + 1.5vw);
+        font-family: "SupplyMono";
+        font-weight: lighter;
+        color: #a98e7e;
+        margin-top: 0%;
+        position: relative;
+        z-index: 50;
+        width: 100%;
+    }
+	.fundoAmarelo{
+		background-position: left;
+	}
+    
+    #areaFormulario p{
+        font-size:calc(30px + 0.5vw);
+    }
+	
+	.frases{
+		height: 80vh;
+	}
+	
+	.frase{
+
+        margin-top: 38vh;
+        font-size: 25pt;
+	    letter-spacing: 5px;
+
+	}
+    .nome{
+        font-size: 60%;
+    }
+	.identa1{
+        font-size:50%;
+    }
+
+    .identa2{
+        font-size:50%;
+    }
+
+    .identa3{
+        font-size:50%;
+    }
+
+    .identa4{
+        font-size:50%;
+    }
+	.apresentacao{
+		font-size: 20pt;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+	
+	.apresentacao .small{
+		font-size: 15pt;
+		letter-spacing: 1px;
+	}
+	
+	.apresentacao .right{
+		font-size: 20pt;
+	}
+    
+    .workshops .box .texto h1{
+        font-size: 50px;
+    }
+	
+	#decal1{
+		transform:translateX(-50%) translateY(-40%);
+		z-index: 30;
+	}
+
+	#decal3{
+		transform:translateX(-50%) translateY(250%);
+		width:300px;
+	}
+	
+	#areaFormulario .enviar{
+		margin-left: 90%;
+	}
+	
+	#email{
+		width: 96%
+	}
+	
+	.bottomLogo{
+	margin-left: -24px;
+	margin-top: -100px;
+    width: 250px;
+    height: 250px;
+}
+
+
+.fblogo{
+    width: 130px;
+    height: 30px;
+	margin-top:20px;
+}
+
+}
