@@ -235,7 +235,7 @@
     margin-bottom: 10px;
     font-weight: 100;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 30px;
     color: darkgrey;
 	white-space: nowrap;
 }
@@ -246,7 +246,7 @@
     background-color: transparent;
     font-weight: 100;
     border: 0px;
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 2px;
     border-bottom: 1px solid grey;
     color: #414141;
@@ -395,15 +395,13 @@
         font-size: 50px;
     }
 	
-	#decal1{
-		transform:translateX(-50%) translateY(-40%);
-		z-index: 30;
-	}
-
-	#decal3{
-		transform:translateX(-50%) translateY(250%);
-		width:300px;
-	}
+    #areaFormulario p{
+        font-size: 100%;
+    }
+    
+    #areaFormulario input{
+        font-size: 100%;   
+    }
 	
 	#areaFormulario .enviar{
 		margin-left: 90%;
@@ -418,13 +416,6 @@
 	margin-top: -100px;
     width: 250px;
     height: 250px;
-}
-
-
-.fblogo{
-    width: 130px;
-    height: 30px;
-	margin-top:20px;
 }
 
 }
