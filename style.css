@@ -99,6 +99,9 @@
     margin-left: 90px;
 }
 
+.typed-cursor{
+    opacity: 0;
+}
 
 .fundoAmarelo{
     background-image: url(img/Incentivo.png);
