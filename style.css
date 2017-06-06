@@ -297,6 +297,9 @@
 }
 
 @media only screen and (max-device-width: 500px) {
+    .hero{
+        background-image: url(img/%20capamobile.jpg);
+    }
 	.logo{
         height: auto; 
         width: auto; 
